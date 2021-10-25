@@ -24,11 +24,10 @@
             </a-assets>
 
                 <a-entity
-                    light="type: ambient; color: #CCF; intensity: .9 "
-                    light="type: hemisphere; color: #654; groundColor: #fff; intensity: .9 "
-                    value="This content will always face you."
+                    light="type: ambient; color: #CCF; intensity: 9 "
+                    light="type: hemisphere; color: #654; groundColor: #fff; intensity: 9 "
                     renderer="physicallyCorrectLights: true"
-                
+                    position="300 0 100" rotation="0 270 0"
                     look-at="[gps-camera]"
                     animation-mixer="loop: repeat"
                     gltf-model="#animated-asset"
